@@ -53,27 +53,12 @@ nav a{
 	justify-content: space-around;
 }
 
-.menu-ind:hover{
-	border-top:3px solid #4C8;
-	background-color: RGBa(64,200, 130, 0.15);
-}
-
-.menu-exp:hover{
+.menu-s:hover{
 	border-top:3px solid #4C8;
 	background-color: RGBa(64,200, 130, 0.15);
 }
 
 
-.menu-loi:hover{
-	border-top:3px solid #4C8;
-	background-color: RGBa(64,200, 130, 0.15);
-}
-
-
-.menu-contact:hover{
-	border-top:3px solid #4C8;
-	background-color: RGBa(64,200, 130, 0.15);
-}
 
 nav li:hover a{
 	padding: 15px 30px;
@@ -98,7 +83,7 @@ nav li:hover a{
 	margin-bottom:0px;
 }
 
-@media screen and (max-width:780px){
+@media screen and (max-width:1000px){
 	header{
 		height: 50px;
 	}
