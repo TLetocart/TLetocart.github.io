@@ -1,0 +1,112 @@
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: nowrap;
+}
+
+.right{
+	
+	flex-basis: 82%;
+}
+
+.left{
+	background-color: #E37343;
+	flex-basis: 18%;
+
+}
+
+.rightin{
+	display : flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	padding-left :50px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 2px;
+}
+
+.rightin h2{
+	padding-top: 2px;
+}
+
+
+.left h1{
+	background-color: #cabcb5;
+	text-align: center;
+	color :#E37343;
+	padding-right: 10px;
+}
+
+
+
+.image{
+	padding : 15px;
+
+}
+
+p{
+	padding-left : 20px;
+	padding-right : 20px;
+}
+
+.icones{
+	padding : 20px;
+	flex-wrap: wrap;
+}
+
+
+.flex-tit{
+	display: flex;
+	flex-direction: row;
+	border-bottom : solid 2px #E37343;
+	padding-top: 20px;
+
+}
+.flex-tit i{
+	display: flex;
+	flex-direction: row;
+	padding-right: 50px;
+}
+
+.rightin h1{
+	font-size: 25px;
+}
+
+/* Corps de texte */
+
+
+.corps{
+	display: flex;
+	flex-direction: row;
+	flex-basis: 100%;
+	padding-top: 5px;
+}
+.corpsic{
+	display: flex;
+	flex-basis: 3%;
+	padding-top:22px;
+}
+.corpsleft{
+	display: flex;
+	flex-basis: 15%;
+	flex-direction: column;
+}
+
+.corpsright{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 82%;
+}
+
+.corps h2{
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.comp{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	padding-top: 5px;
+}
