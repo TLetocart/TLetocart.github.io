@@ -5,6 +5,10 @@
 	flex-wrap: nowrap;
 }
 
+h1 p h2 h3{
+	font-family: arial; 
+}
+
 .right{
 	
 	flex-basis: 82%;
@@ -28,6 +32,7 @@
 
 .rightin h2{
 	padding-top: 2px;
+	font-family: arial; 
 }
 
 
@@ -36,8 +41,14 @@
 	text-align: center;
 	color :#E37343;
 	padding-right: 10px;
+	font-family: arial; 
 }
 
+.left h3{
+	padding-right: 20px;
+	padding-left: 20px;
+	font-family: arial; 
+}
 
 
 .image{
@@ -48,6 +59,7 @@
 p{
 	padding-left : 20px;
 	padding-right : 20px;
+	font-family: arial; 
 }
 
 .icones{
@@ -71,6 +83,7 @@ p{
 
 .rightin h1{
 	font-size: 25px;
+	font-family: arial; 
 }
 
 /* Corps de texte */
@@ -101,7 +114,7 @@ p{
 
 .corps h2{
 	font-size: 20px;
-	padding-left: 10px;
+	padding-left: 20px;
 }
 
 .comp{
@@ -109,4 +122,63 @@ p{
 	flex-direction: column;
 	flex-basis: 100%;
 	padding-top: 5px;
+}
+
+.nom{
+	visibility: hidden;
+	text-align: center;
+	font-size: 25px;
+	font-family: arial; 
+	font-weight: bold;
+
+}
+
+@media screen and (max-width:1000px){
+	.container{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.right{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.left{
+		display: flex;
+		flex-direction: column;
+		flex-basis: 100%;
+	}
+
+	.rightin h2{
+		font-size: 15px;
+		padding-left: 1px;
+	}
+
+	h2{
+		font-size: 18px;
+	}
+
+	.top{
+		display: flex;
+		visibility: hidden;
+	}
+
+	.nom{
+		visibility: visible;
+	}
+
+	.corps h2{
+		padding-left: 5px;
+	}
+
+	.corpsleft{
+		flex-basis: 30%;
+		padding-right: 7px;	
+	}
+
+	.corpsic{
+		padding-left: 2px;
+		padding-right: 10px;
+	}
 }
