@@ -84,6 +84,8 @@ nav li:hover a{
 }
 
 @media screen and (max-width:1000px){
+	body{margin: 0;}
+
 	header{
 		height: 50px;
 	}
