@@ -1,9 +1,22 @@
+body{
+	margin: 0;
+}
+
+.Leto{
+	color : #E37343;
+}
+
+.dev{
+	border-bottom: solid #f09e6c;
+}
+
 .container{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	flex-wrap: nowrap;
 }
+
 
 h1 p h2 h3{
 	font-family: arial; 
@@ -63,8 +76,9 @@ p{
 }
 
 .icones{
-	padding : 20px;
-	flex-wrap: wrap;
+	display : flex;
+	justify-content: space-around;
+	padding-bottom: 20px;
 }
 
 
@@ -127,7 +141,7 @@ p{
 .nom{
 	visibility: hidden;
 	text-align: center;
-	font-size: 25px;
+	font-size: 32px;
 	font-family: arial; 
 	font-weight: bold;
 
