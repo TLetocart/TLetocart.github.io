@@ -2,8 +2,27 @@ body{
 	margin: 0;
 }
 
+img{
+	display: block;
+	margin-top: 20px;
+	border-radius: 50%;
+	height: 180px;
+	width: 180px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
 .Leto{
 	color : #E37343;
+	font-size: 50px;
+	font-family: arial; 
+
+}
+
+.thomas{
+	font-size: 50px;
+	font-family: arial; 
 }
 
 .dev{
@@ -16,6 +35,8 @@ body{
 	justify-content: center;
 	flex-wrap: nowrap;
 }
+
+
 
 
 h1 p h2 h3{
@@ -75,11 +96,19 @@ p{
 	font-family: arial; 
 }
 
+.icone{
+	color : #E37343;
+	display : flex;
+}
+
 .icones{
 	display : flex;
 	justify-content: space-around;
 	padding-bottom: 20px;
+
 }
+
+
 
 
 .flex-tit{
@@ -148,6 +177,18 @@ p{
 }
 
 @media screen and (max-width:1000px){
+
+	.icone{
+		font-size: 12px;
+		padding-bottom: 0px;
+		padding-right: 0px;
+	}
+
+	.right h1{
+		font-size: 18px;
+		padding-left: 1px;
+	}
+
 	.container{
 		display: flex;
 		flex-direction: column;
@@ -156,8 +197,13 @@ p{
 	.right{
 		display: flex;
 		flex-direction: column;
-		flex-wrap: wrap;
+		flex-basis: 100%;
 	}
+
+	.rightin{
+		padding-left: 10px;
+	}
+
 	.left{
 		display: flex;
 		flex-direction: column;
@@ -165,8 +211,7 @@ p{
 	}
 
 	.rightin h2{
-		font-size: 15px;
-		padding-left: 1px;
+		font-size: 13px;
 	}
 
 	h2{
@@ -183,7 +228,7 @@ p{
 	}
 
 	.corps h2{
-		padding-left: 5px;
+		padding-left: 2px;
 	}
 
 	.corpsleft{
@@ -194,5 +239,10 @@ p{
 	.corpsic{
 		padding-left: 2px;
 		padding-right: 10px;
+	}
+
+
+	.flex-tit i{
+		padding-right: 30px;
 	}
 }
