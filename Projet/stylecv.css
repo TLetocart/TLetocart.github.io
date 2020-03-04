@@ -1,6 +1,5 @@
 body{
 	margin: 0;
-	overflow-x: hidden;
 }
 
 img{
@@ -40,12 +39,14 @@ img{
 
 
 
-h1 p h2 h3{
+h1 p h2 h3 h4{
 	font-family: arial; 
 }
 
-.right{
-	
+
+
+
+.right{	
 	flex-basis: 82%;
 }
 
@@ -71,15 +72,16 @@ h1 p h2 h3{
 }
 
 
-.left h1{
+.left h3{
 	background-color: #cabcb5;
 	text-align: center;
 	color :#E37343;
 	padding-right: 10px;
 	font-family: arial; 
+	font-size: 30px;
 }
 
-.left h3{
+.left h4{
 	padding-right: 20px;
 	padding-left: 20px;
 	font-family: arial; 
@@ -110,8 +112,6 @@ p{
 }
 
 
-
-
 .flex-tit{
 	display: flex;
 	flex-direction: row;
@@ -125,9 +125,14 @@ p{
 	padding-right: 50px;
 }
 
-.rightin h1{
+.rightin h3{
 	font-size: 25px;
 	font-family: arial; 
+}
+
+.rightin h4{
+	padding-top: 10px;
+	font-family: arial;
 }
 
 /* Corps de texte */
@@ -142,7 +147,7 @@ p{
 .corpsic{
 	display: flex;
 	flex-basis: 3%;
-	padding-top:22px;
+	padding-top:34px;
 }
 .corpsleft{
 	display: flex;
@@ -168,8 +173,8 @@ p{
 	padding-top: 5px;
 }
 
-.nom{
-	visibility: hidden;
+h2{
+	display : none;
 	text-align: center;
 	font-size: 32px;
 	font-family: arial; 
@@ -215,21 +220,19 @@ p{
 		font-size: 13px;
 	}
 
-	h2{
-		font-size: 18px;
+	.rightin h3{
+		margin-top: 29px;
+		font-size: 20px;
 	}
+
 
 	.top{
-		display: flex;
-		visibility: hidden;
+		display: none;
 	}
 
-	.nom{
-		visibility: visible;
-	}
-
-	.corps h2{
-		padding-left: 2px;
+	h2{
+		display: block;
+		font-size: 30px;
 	}
 
 	.corpsleft{
@@ -244,6 +247,6 @@ p{
 
 
 	.flex-tit i{
-		padding-right: 30px;
+		padding-right: 20px;
 	}
 }
